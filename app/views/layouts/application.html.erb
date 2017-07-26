@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-<<<<<<< HEAD
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
-=======
     <title><%= full_title(yield(:title)) %></title>
->>>>>>> rails-flavored-ruby
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application", media: "all",
       "data-turbolinks-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
-<<<<<<< HEAD
-  </head>
-
-  <body>
-    <%= yield %>
-=======
     <%= render "layouts/shim" %>
   </head>
   <body>
@@ -24,6 +14,5 @@
       <%= yield %>
       <%= render "layouts/footer" %>
     </div>
->>>>>>> rails-flavored-ruby
   </body>
 </html>
