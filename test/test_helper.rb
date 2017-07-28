@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
+=======
+require File.expand_path("../../config/environment", __FILE__)
+require "rails/test_help"
+>>>>>>> rails-flavored-ruby
 
 module ActiveSupport
   class TestCase
