@@ -6,10 +6,11 @@ end
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.1.2"
-<<<<<<< HEAD
-=======
 gem "bootstrap-sass","3.3.7"
->>>>>>> rails-flavored-ruby
+gem "bcrypt", "3.1.11"
+gem "bootstrap-sass", "3.3.7"
+gem "rails-controller-testing"
+gem "jquery-rails", "4.3.1"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3"
 # Use Puma as the app server
@@ -20,7 +21,10 @@ gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem "therubyracer", platforms: :ruby
-
+gem "config"
+gem "faker", "1.7.3"
+gem "will_paginate", "3.1.5"
+gem "bootstrap-will_paginate", "1.0.0"
 # Use CoffeeScript for .coffee assets and views
 gem "coffee-rails", "~> 4.2"
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
